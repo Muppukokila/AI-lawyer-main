@@ -13,6 +13,8 @@ interface VoiceButtonProps {
   loading?: boolean; // New prop for loading state
 }
 
+
+
 const VoiceButton: React.FC<VoiceButtonProps> = ({
   isListening,
   toggleListening,
