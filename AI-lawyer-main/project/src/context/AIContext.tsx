@@ -131,6 +131,7 @@ export const AIProvider = ({ children }: { children: ReactNode }) => {
     if (typeof window !== 'undefined') {
       const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
       
+      
       if (SpeechRecognition) {
         const recognition = new SpeechRecognition();
         recognition.continuous = false;
