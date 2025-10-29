@@ -1,4 +1,4 @@
-# AI Legal Assistant (India)
+# AI Legal Assistant
 
 ![AI Lawyer Demo](project/Screenshot%202025-04-24%20215844.png) *Screenshot placeholder*
 ![AI Lawyer Demo](project/Screenshot%202025-04-24%20215859.png) *Screenshot placeholder*
@@ -19,7 +19,7 @@ An AI-powered legal assistant specializing in Indian law, built with:
 
 - Python 3.9+
 - Node.js 16+
-- Groq API key ([Get one here](https://console.groq.com/))
+- Groq API key
 - Basic understanding of Indian legal system
 
 ## Setup Guide
