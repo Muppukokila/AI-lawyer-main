@@ -223,11 +223,12 @@ export const AIProvider = ({ children }: { children: ReactNode }) => {
     setError(null);
 
     try {
-      const response = await fetch('https://ai-lawyer-backend.onrender.com/api/chat', {
+      const response = await fetch('https://grsk18-ai-lawyer-backend.hf.space/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text: userInput }),
       });
+
 
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
